@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         ed_name=findViewById(R.id.edt_name)
         ed_email=findViewById(R.id.ed_email)
 
+        //Hello
 
 
         var button = findViewById<Button>(R.id.signUpBtn)
