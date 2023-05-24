@@ -1,5 +1,6 @@
 package com.vasyerp.androiddevsvasyerp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -13,8 +14,7 @@ class Practice : AppCompatActivity() {
 
         signupBtn=findViewById(R.id.signUpBtn)
         signupBtn.setOnClickListener {
-            Toast.makeText(this,"Clicked",Toast.LENGTH_SHORT).show()
-        }
+            startActivity(Intent(this,MainActivity::class.java))        }
 
     }
 }
