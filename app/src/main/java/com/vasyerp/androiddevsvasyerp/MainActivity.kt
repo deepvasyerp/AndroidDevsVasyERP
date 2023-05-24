@@ -1,5 +1,6 @@
 package com.vasyerp.androiddevsvasyerp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.Button
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         var button = findViewById<Button>(R.id.signUpBtn)
 
         button.setOnClickListener {
-            Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this,Practice::class.java))
         }
 
 
