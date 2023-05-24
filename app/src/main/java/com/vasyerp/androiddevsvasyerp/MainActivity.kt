@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         var button = findViewById<Button>(R.id.signUpBtn)
 
         button.setOnClickListener {
-            Toast.makeText(this, "Button Clicked", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show()
         }
 
 
